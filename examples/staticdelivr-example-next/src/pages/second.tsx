@@ -16,17 +16,17 @@ const SecondPage: React.FC = () => {
 
       <p>
         Here’s how it works:
-        <ul>
-          <li>
-            The relative path in the `src` prop (like `/path/to/another-image.png`) is combined with the globally set base URL.
-            This means you don’t need to manually set the full URL for each image in the app. StaticDelivr handles this automatically.
-          </li>
-          <li>
-            For example, if the base URL is `https://your-site.com`, then `src="/path/to/another-image.png"` will be resolved as 
-            `https://your-site.com/path/to/another-image.png`.
-          </li>
-        </ul>
       </p>
+      <ul>
+        <li>
+          The relative path in the `src` prop (like `/path/to/another-image.png`) is combined with the globally set base URL.
+          This means you don’t need to manually set the full URL for each image in the app. StaticDelivr handles this automatically.
+        </li>
+        <li>
+          For example, if the base URL is `https://your-site.com`, then `src="/path/to/another-image.png"` will be resolved as 
+          `https://your-site.com/path/to/another-image.png`.
+        </li>
+      </ul>
 
       {/* Optimized image using StaticDelivr */}
       <p>
