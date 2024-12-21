@@ -1,0 +1,60 @@
+{
+  "name": "staticdelivr",
+  "version": "1.0.0",
+  "description": "StaticDelivr simplifies image delivery by optimizing performance through CDN integration, format conversion, and dynamic resizing. Perfect for React applications.",
+  "keywords": [
+    "image-optimization",
+    "cdn",
+    "react",
+    "image-delivery",
+    "web-performance",
+    "staticdelivr"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@eslint/js": "^9.17.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.14.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
+  },
+  "license": "MIT",
+  "homepage": "https://staticdelivr.com/",
+  "bugs": {
+    "url": "https://github.com/StaticDelivr/StaticDelivr-CDN-NPM-Package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StaticDelivr/StaticDelivr-CDN-NPM-Package.git"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                    // Use latest ES features for modern compatibility
+    "module": "Node16",                    // Supports ES module syntax
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Include DOM and ESNext libraries for browser environments
+    "jsx": "react-jsx",                    // Modern JSX runtime for React 17+
+    "outDir": "dist",                      // Output directory for compiled files
+    "moduleResolution": "node16",            // Resolves modules in Node-style
+    "esModuleInterop": true,               // Enable interoperability between CommonJS and ES modules
+    "allowSyntheticDefaultImports": true,  // Support default imports for modules without a default export
+    "strict": true,                        // Enable all strict type-checking options
+    "skipLibCheck": true,                  // Skip type checking for declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+    "resolveJsonModule": true,             // Allow importing JSON files
+    "isolatedModules": true,               // Ensures that each file can be transpiled in isolation
+    "declaration": true,                   // Generate declaration files for TypeScript
+    "declarationMap": false,                // Generate declaration maps
+    "sourceMap": false,                     // Include source maps for debugging
+    "baseUrl": ".",                        // Resolves non-relative module imports from the current directory
+    "paths": {                             // Optional: Add paths if required for resolving modules
+      "*": ["node_modules/*"]
+    },
+    "noImplicitAny": false
+  },
+  "include": ["src"],                      // Include source directory (for source files)
+  "exclude": ["node_modules", "dist"]      // Exclude unnecessary directories (e.g., dist and node_modules)
+}
